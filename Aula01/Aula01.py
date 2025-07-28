@@ -1,0 +1,7 @@
+nome = input('Digite seu nome: ')
+cpf = input('Digite seu CPF: ')
+endereço = input('Digite seu endereço: ')
+idade = input('Digite sua idade: ')
+altura = input('Digite sua altura: ')
+telefone = input('Digite seu telefone: ')
+print(f"nome: {nome}\ndocumento: {cpf}\nmora: {endereço}\nidade: {idade}\naltura: {altura}\ncontato: {telefone}")
