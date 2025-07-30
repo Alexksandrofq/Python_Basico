@@ -1,0 +1,6 @@
+frase = 'oi, tudo bem?'
+lista_nomes = ['Joao', 'Maria', 'Guilherme', 'Diego']
+
+frase_nova = frase + 'Como você está?'
+print(lista_nomes.pop())
+print(lista_nomes)
