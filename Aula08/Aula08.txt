@@ -1,0 +1,8 @@
+Argumentos de linha de comando 
+
+importa biblioteca sys: dará métodos para se comunicar com o sistema operacional.
+tem que passar os 3 argumentos para rodar
+argumento0 = nome do programa 
+arg1 = método
+arg2 = n1
+arg3 = n2

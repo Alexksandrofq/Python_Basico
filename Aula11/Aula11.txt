@@ -1,0 +1,12 @@
+Tratamento de erros e exceções (Try e Except)
+
+try: tentar
+quando for tratar um erro, exceção, tem como especificar a exceção, (ex: no except ZeroDivisionError) e so ira cair no except se for o mesmo erro especificado.
+except Exception as e:
+    print("Aconteceu um erro", e)
+para especificar o erro, coloca Exception e uma variável
+locais comum para usar o try e except:
+-Rede
+-abrir arquivo e fechar arquivo 
+-acessar algum recurso esterno, acessar rede, site, abrir img
+

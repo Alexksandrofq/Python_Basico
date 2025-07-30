@@ -1,0 +1,4 @@
+lista = ['gui', 'joao'] #pode se vazia, sempre ordenado, é multável(list)
+tupla = ('gui', 'joao') #não é multável, não pode remover objetos, mudar o tamanho, usar quando for número limitado(tuple)
+dicionário = {'nome': 'Alex', 'idade': 20} #obejto de sombra, é dinâmico
+conjunto = {'gui', 'joao'} #não existe itens repetidos, é dinâmico, não é ordenado(set)

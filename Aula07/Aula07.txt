@@ -1,0 +1,5 @@
+
+len() = contador, retorno em inteiro
+para definir uma função, escreve "def"
+min = pega o menor valor
+max = pegar o maior valor

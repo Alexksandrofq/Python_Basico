@@ -1,0 +1,47 @@
+Expressões regulares, procurando por e-mails
+
+Expressões regulares(re ou regex) = são minis mensagens de programação, que ajuda a especificar os padrões
+para imprimir texto, usa o .group() no print
+o r = transforma a string que estiver dentro do () em raw String, uma string crua 
+ex:
+print("Olá mundo\nOlá fml")
+saída = Olá mundo
+	Olá fml
+print(r"Olá mundo\nOlá fml")
+saída = Olá mundo\nOlá fml
+Para achar qualquer caracter, coloca o "." no final da palavra
+Ex:
+string_de_teste = 'o gato é bonito'
+
+padrao = re.search(r'gat.', string_de_teste)
+
+saida: gato 
+
+string_de_teste = 'o gata é bonito'
+
+padrao = re.search(r'gat.', string_de_teste)
+
+saída = gata
+
+\W =  caracteres tipo Word, de A a Z minúsculos, maiúsculos, números e _, mas se tiver \W \W, dendê a entender que terá 2 letras após a outras
+Existem mais na documentação Re python 
+
+findall= procurar por tudo, e não utiliza o .group
+
+O + (gat\w+), ele repete 1 ou mais vezes, sendo obrigatório ter 1 ou mais letras após o gat
+O *(gat\w*), ele repete por 0 ou infinitas vezes, se tiver escrito só gat, ele vai achar
+O (gat\w\.) = para espeficiar que tem que ter um .
+Especificar caracterers, coloca entre [] as letras que deseja achar 
+site para treinar: regex101.com
+
+import re
+
+string_de_teste = 'o gato, a gata, os gatões, as gatonas, os gatinhos, as gatinhas'
+
+padrao = re.findall(r'gat\w=', string_de_teste)
+
+if padrao:
+    print(padrao)
+
+else:
+    print("padrão não encontrado")

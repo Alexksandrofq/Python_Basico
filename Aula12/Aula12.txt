@@ -1,0 +1,9 @@
+Bibliotecas, PIP e Requisições Web
+ 
+Gerenciador de pacotes = PIP
+requisição web = entrar em um site 
+
+import requests
+
+requisicao = requests.get('https://solyd.com.br')
+print(requisacao.text)

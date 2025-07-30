@@ -1,0 +1,18 @@
+Entrada e saída de arquivos
+
+open('arquivo.txt', 'w')
+open leva 2 argumentos, primeiro é nome e segundo é o modo de abertura
+'w': modo escrever
+'r': modo ler 
+'r+': leitura e escrita
+'a': método de escrita, no modo append, adicionar
+
+são métodos de abrir arquivo de texto
+
+'b': arquivo binário 
+
+ex:
+arquivo = open('arquivo.txt', 'w') 
+for i in range(1, 101):
+	arquivo.write("eu amo vc" + str(i) + "\n")
+print(arquivo.read())
